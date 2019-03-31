@@ -103,10 +103,10 @@ li{
 }
 #leftmenu {
     position: fixed;
-    height: 290px;
+    height: 320px;
     top: 0px;
-    left: -370px;
-    width: 355px;
+    left: -390px;
+    width: 375px;
     border-radius: 10px;
     padding: 10px 10px 5px 10px;
     box-shadow: 0 0 5px white;
