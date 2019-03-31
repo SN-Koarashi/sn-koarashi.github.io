@@ -103,15 +103,15 @@ li{
 }
 #leftmenu {
     position: fixed;
-    height: 175px;
+    height: 290px;
     top: 0px;
-    left: -235px;
-    width: 220px;
+    left: -370px;
+    width: 355px;
     border-radius: 10px;
     padding: 10px 10px 5px 10px;
     box-shadow: 0 0 5px white;
-	color:#FFFFFF;
-	background-color: rgba(152, 152, 152, 0.1);
+    color: #FFFFFF;
+    background-color: rgba(152, 152, 152, 0.1);
 }
 #myscore {
     font-size: 12pt;
