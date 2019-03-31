@@ -1,0 +1,295 @@
+<html>
+<head>
+<SCRIPT language=JavaScript>
+<!-- begin
+document.onmousedown=click;
+document.onkeydown=click;
+if (document.layers) window.captureEvents(Event.MOUSEDOWN); window.onmousedown=click;
+if (document.layers) window.captureEvents(Event.KEYDOWN); window.onkeydown=click;
+function click(e){
+if (navigator.appName == 'Netscape'){
+if (e.which != 1){
+return false;}}
+if (navigator.appName == "Microsoft Internet Explorer"){
+if (event.button != 1){
+return false;}}}
+// end -->
+</SCRIPT>
+<title>遊戲獎勵</title>
+<meta charset="UTF-8">
+<link id="favicon" rel="icon" type="image/png" href="imgs/紅球.png"/>
+<script>
+function Check(chk){
+    var chkbox=document.getElementsByName(chk);
+    if(document.myform.Check_ctr.checked==true){
+        for (i = 0; i < chkbox.length; i++){
+            chkbox[i].checked = true ;}
+    }else{
+        for (i = 0; i < chkbox.length; i++){
+            chkbox[i].checked = false ;}
+    }
+}
+</script>
+<script type="text/javascript">
+<!--
+	//items陣列用來紀錄要顯示/隱藏的區塊id
+	var items = new Array("s3","");
+	//show()函式需要一個參數：obj為CheckBox元素本身
+	function show(obj){
+		//一一取得items陣列中的物件 並判斷CheckBox是否被勾選 若是則顯示區塊 反之則隱藏
+		for(var i=0;i<items.length;i++){
+			document.getElementById(items[i]).style.display = obj.checked?"block":"none";
+		}
+	}
+//-->
+</script>
+<script type="text/javascript">
+<!--
+	//items陣列用來紀錄要顯示/隱藏的區塊id
+	var item = new Array("s4","");
+	//show()函式需要一個參數：obj為CheckBox元素本身
+	function xxxx(obj){
+		//一一取得items陣列中的物件 並判斷CheckBox是否被勾選 若是則顯示區塊 反之則隱藏
+		for(var i=0;i<items.length;i++){
+			document.getElementById(item[i]).style.display = obj.checked?"block":"none";
+		}
+	}
+//-->
+</script>
+<script type="text/javascript">
+<!--
+	//items陣列用來紀錄要顯示/隱藏的區塊id
+	var item1 = new Array("s5","");
+	//show()函式需要一個參數：obj為CheckBox元素本身
+	function xxxx2(obj){
+		//一一取得items陣列中的物件 並判斷CheckBox是否被勾選 若是則顯示區塊 反之則隱藏
+		for(var i=0;i<items.length;i++){
+			document.getElementById(item1[i]).style.display = obj.checked?"block":"none";
+		}
+	}
+//-->
+</script>
+<script type="text/javascript">
+<!--
+	//items陣列用來紀錄要顯示/隱藏的區塊id
+	var item2 = new Array("s6","");
+	//show()函式需要一個參數：obj為CheckBox元素本身
+	function xxxx3(obj){
+		//一一取得items陣列中的物件 並判斷CheckBox是否被勾選 若是則顯示區塊 反之則隱藏
+		for(var i=0;i<items.length;i++){
+			document.getElementById(item2[i]).style.display = obj.checked?"block":"none";
+		}
+	}
+//-->
+</script>
+<script type="text/javascript">
+<!--
+	//items陣列用來紀錄要顯示/隱藏的區塊id
+	var item3 = new Array("s7","");
+	//show()函式需要一個參數：obj為CheckBox元素本身
+	function xxxx4(obj){
+		//一一取得items陣列中的物件 並判斷CheckBox是否被勾選 若是則顯示區塊 反之則隱藏
+		for(var i=0;i<items.length;i++){
+			document.getElementById(item3[i]).style.display = obj.checked?"block":"none";
+		}
+	}
+//-->
+</script>
+</head>
+<div style="text-align: center;">
+	<div><strong><span style="font-size:26px;">注意事項</span></strong></div>
+		<span style="font-size: 16px;">&nbsp如果想收集這些球請到RC26683673，否則就算你達成條件也不會給你</span>
+	<hr style="margin-bottom: 7px; "/>
+	<INPUT name="check_list[]" id="check_list[]" type="checkbox" onclick="show(this,'s2');">比賽獎勵 <INPUT type="checkbox" onclick="xxxx(this,'55');">分數獎勵 <INPUT type="checkbox" onclick="xxxx2(this,'556');">其他獎勵 <INPUT type="checkbox" onclick="xxxx4(this,'558');">貢獻獎勵 <INPUT type="checkbox" onclick="xxxx3(this,'557');">倉庫
+	<hr>
+	<table bgcolor="#FF7878" style="text-align: center;display:none" id="s3" width="500" border="1" align="center">
+　		<tr><td bgcolor="#FFD78C" colspan="13" align="center">比賽獎勵</br>遊戲比賽勝利者可獲得紅球(勝利的當時需在RC才有)</td>
+		</td>
+		<tr bgcolor="#FFD78C">
+		　<td colspan="3" align="center">最後勝利</br>使用的暱稱</td>
+		　<td colspan="2" align="center">RC名稱</td>
+		　<td colspan="2" align="center">RC帳號</td>
+		　<td colspan="2" align="center">總計獎勵</td>
+		　<td colspan="3" align="center">最後勝利時間</td>
+		　</tr>
+		<tr bgcolor="#fff9a8">
+		　<td colspan="3" align="center">troll</td>
+		　<td colspan="2" align="center">寒喵</td>
+		　<td colspan="2" align="center">K23843244</td>
+		　<td colspan="2" align="center"><img src="imgs/紅球.png">x1</td>
+		　<td colspan="3" align="center">2015/8/16 20:00</td>
+		　</tr>
+		<tr bgcolor="#fff9a8">
+		　<td colspan="3" align="center">TRoll</td>
+		　<td colspan="2" align="center">夜澪</td>
+		　<td colspan="2" align="center">N/A</td>
+		　<td colspan="2" align="center"><img src="imgs/紅球.png">x1</td>
+		　<td colspan="3" align="center">2015/8/17 21:23</td>
+		　</tr>
+	</table>
+	<table bgcolor="#FF7878" style="text-align: center;display:none" id="s4" width="500" border="1" align="center">
+　		<tr><td bgcolor="#FFD78C" colspan="13" align="center">分數獎勵</br>在天夜之心Agar.io普通模式中50,000分且第一名即可獲得綠球</br>(要截圖存證，並且當時要在RC)</td>
+		</td>
+		<tr bgcolor="#FFD78C">
+		　<td colspan="3" align="center">最後使用<br>暱稱</td>
+		　<td colspan="2" align="center">RC名稱</td>
+		　<td colspan="2" align="center">RC帳號</td>
+		　<td colspan="2" align="center">最高<br>分數</td>
+		　<td colspan="2" align="center">總計<br>獎勵</td>
+		　<td colspan="2" align="center">上次獲得時間</td>
+		　</tr>
+		<tr bgcolor="#fff9a8">
+		<td colspan="3" align="center">古曉雪</td>
+		<td colspan="2" align="center">夜澪</td>
+		<td colspan="2" align="center">N/A</td>
+		<td colspan="2" align="center">62850</td>
+		<td colspan="2" align="center"><img src="imgs/綠球.png">x6</td>
+		<td colspan="2" align="center">2015/8/23 15:23</td>
+		</tr>
+		<tr bgcolor="#fff9a8">
+		<td colspan="3" align="center">逆神者</td>
+		　<td colspan="2" align="center">只是一隻狼</td>
+		　<td colspan="2" align="center">22918497</td>
+		　<td colspan="2" align="center">54205</td>
+		　<td colspan="2" align="center"><img src="imgs/綠球.png">x1</td>
+		　<td colspan="2" align="center">2015/8/23 15:23</td>
+		　</tr>
+		<tr bgcolor="#fff9a8">
+		　<td colspan="3" align="center">噩夢求合作</td>
+		　<td colspan="2" align="center">噩夢</td>
+		　<td colspan="2" align="center">QWE940307</td>
+		　<td colspan="2" align="center">52432</td>
+		　<td colspan="2" align="center"><img src="imgs/綠球.png">x1</td>
+		　<td colspan="2" align="center">2015/12/02 22:36</td>
+		　</tr>
+		<tr bgcolor="#fff9a8">
+		　<td colspan="3" align="center">666</td>
+		　<td colspan="2" align="center">破曉雷神</td>
+		　<td colspan="2" align="center">ZXC35885967</td>
+		　<td colspan="2" align="center">62482</td>
+		　<td colspan="2" align="center"><img src="imgs/綠球.png">x1</td>
+		　<td colspan="2" align="center">2016/1/3 <br>02:27</td>
+		　</tr>
+		<tr bgcolor="#FFD78C">
+		</td>
+		　<td colspan="3" align="center">最後使用<br>暱稱</td>
+		　<td colspan="2" align="center">RC名稱</td>
+		　<td colspan="2" align="center">RC帳號</td>
+		　<td colspan="2" align="center">最高<br>分數</td>
+		　<td colspan="2" align="center">總計<br>獎勵</td>
+		　<td colspan="2" align="center">上次獲得<br>時間</td>
+		　</tr>
+	</table>
+	<table bgcolor="#FF7878" style="text-align: center;display:none" id="s5" width="500" border="1" align="center">
+　		<tr><td bgcolor="#FFD78C" colspan="13" align="center">其他獎勵</td>
+		</td>
+		<tr bgcolor="#FFD78C">
+		　<td colspan="3" align="center">最後使用的暱稱</td>
+		　<td colspan="2" align="center">RC名稱</td>
+		　<td colspan="2" align="center">RC帳號</td>
+		　<td colspan="2" align="center">總計獎勵</td>
+		　<td colspan="2" align="center">上次獲得時間</td>
+		　</tr>
+		<tr bgcolor="#fff9a8">
+		　<td colspan="3" align="center">古曉雪</td>
+		　<td colspan="2" align="center">夜澪</td>
+		　<td colspan="2" align="center">N/A</td>
+		　<td colspan="2" align="center"><img src="imgs/藍球.png">x3</td>
+		　<td colspan="2" align="center">2015/8/23 15:25</td>
+		　</tr>
+		<tr bgcolor="#fff9a8">
+		　<td colspan="3" align="center">NB</td>
+		　<td colspan="2" align="center">NB</td>
+		　<td colspan="2" align="center">D36154789</td>
+		　<td colspan="2" align="center"><img src="imgs/藍球.png">x3</td>
+		　<td colspan="2" align="center">2015/8/23 15:25</td>
+		　</tr>
+		<tr bgcolor="#fff9a8">
+		　<td colspan="3" align="center">逆神者</td>
+		　<td colspan="2" align="center">只是一隻狼</td>
+		　<td colspan="2" align="center">22918497</td>
+		　<td colspan="2" align="center"><img src="imgs/藍球.png">x2</td>
+		　<td colspan="2" align="center">2015/8/23 15:25</td>
+		　</tr>
+		<tr bgcolor="#fff9a8">
+		　<td colspan="3" align="center">楓夜</td>
+		　<td colspan="2" align="center">楓夜</td>
+		　<td colspan="2" align="center">DIDI2532</td>
+		　<td colspan="2" align="center"><img src="imgs/藍球.png">x1</td>
+		　<td colspan="2" align="center">2015/8/23 15:25</td>
+		　</tr>
+		<tr bgcolor="#FFD78C">
+		　<td colspan="3" align="center">最後使用的暱稱</td>
+		　<td colspan="2" align="center">RC名稱</td>
+		　<td colspan="2" align="center">RC帳號</td>
+		　<td colspan="2" align="center">總計獎勵</td>
+		　<td colspan="2" align="center">上次獲得時間</td>
+		　</tr>
+	</table>
+	<table bgcolor="#FF7878" style="text-align: center;display:none" id="s7" width="500" border="1" align="center">
+　		<tr><td bgcolor="#FFD78C" colspan="13" align="center">貢獻獎勵<br>RC貢獻滿2000即可獲得一個(可累計)</td>
+		</td>
+		<tr bgcolor="#FFD78C">
+		　<td colspan="2" align="center">RC名稱</td>
+		　<td colspan="2" align="center">RC帳號</td>
+		　<td colspan="2" align="center">總計獎勵</td>
+		　<td colspan="2" align="center">上次獲得時間</td>
+		　</tr>
+		<tr bgcolor="#fff9a8">
+		　<td colspan="2" align="center">夜澪 カレン</td>
+		　<td colspan="2" align="center">N/A</td>
+		　<td colspan="2" align="center"><img src="imgs/橙球.png">x3</td>
+		　<td colspan="2" align="center">2016/4/4 00:02</td>
+		　</tr>
+		<tr bgcolor="#fff9a8">
+		　<td colspan="2" align="center">Osmanthus</td>
+		　<td colspan="2" align="center">SSRENERN</td>
+		　<td colspan="2" align="center"><img src="imgs/橙球.png">x1</td>
+		　<td colspan="2" align="center">2016/4/4 00:02</td>
+		　</tr>
+		<tr bgcolor="#fff9a8">
+		　<td colspan="2" align="center">寒喵</td>
+		　<td colspan="2" align="center">K23843244</td>
+		　<td colspan="2" align="center"><img src="imgs/橙球.png">x1</td>
+		　<td colspan="2" align="center">2016/4/4 00:02</td>
+		　</tr>
+		<tr bgcolor="#FFD78C">
+		　<td colspan="2" align="center">RC名稱</td>
+		　<td colspan="2" align="center">RC帳號</td>
+		　<td colspan="2" align="center">總計獎勵</td>
+		　<td colspan="2" align="center">上次獲得時間</td>
+		　</tr>
+	</table>
+	<table bgcolor="#FF7878" style="text-align: center;display:none" id="s6" width="500" border="1" align="center">
+　		<tr><td bgcolor="#FFD78C" colspan="13" align="center">倉庫</td>
+		</td>
+		<tr bgcolor="#FFD78C">
+		　<td colspan="2" align="center">RC名稱</td>
+		　<td colspan="2" align="center">RC帳號</td>
+		　<td colspan="2" align="center">總計獎勵</td>
+		　<td colspan="2" align="center">上次獲得時間</td>
+		　</tr>
+		<tr bgcolor="#fff9a8">
+		　<td colspan="2" align="center">N/A</td>
+		　<td colspan="2" align="center">N/A</td>
+		　<td colspan="2" align="center">N/A</td>
+		　<td colspan="2" align="center">N/A</td>
+		　</tr>
+		<tr bgcolor="#FFD78C">
+		　<td colspan="2" align="center">RC名稱</td>
+		　<td colspan="2" align="center">RC帳號</td>
+		　<td colspan="2" align="center">總計獎勵</td>
+		　<td colspan="2" align="center">上次獲得時間</td>
+		　</tr>
+	</table>
+	<hr style="margin-bottom: 7px; "/>
+	<table width="500" border="1" align="center">
+　		<tr><td colspan="13" align="center">合成表<BR>只要到達條件即會自動合成，放在倉庫中</td>
+		</td>
+		<tr>
+		　<td colspan="13" align="center"><span style="font-size: 20px;"><img src="imgs/紅球.png">+<img src="imgs/橙球.png">+<img src="imgs/黃球.png">+<img src="imgs/綠球.png">+<img src="imgs/藍球.png">+<img src="imgs/紫球.png">=<img src="imgs/彩球.png"></span></td>
+		　</tr>
+</div>
+</div>
+<body onDRAGSTART="window.event.returnValue=false" onCONTEXTMENU="window.event.returnValue=false" onSelectStart="event.returnValue=false"></body>
+</html>
