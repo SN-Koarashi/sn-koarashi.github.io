@@ -1,14 +1,14 @@
 (function(wHandle, wjQuery) {
-    var CONNECTION_URL = "game.snkms.com:10222";
-    SKIN_URL = "https://game.snkms.com/woc/skins/";
+    var CONNECTION_URL = "mc.snkms.com:10222";
+    SKIN_URL = "https://mc.snkms.com/ogar/skins/";
     wHandle.setserver = function(arg) {
         if (arg != CONNECTION_URL) {
             CONNECTION_URL = arg;
 			
-			if(arg == 'game.snkms.com:10222'){
+			if(arg == 'mc.snkms.com:10222'){
 				$('#modes').html('自由對戰');
 			}
-			if(arg == 'game.snkms.com:10223'){
+			if(arg == 'mc.snkms.com:10223'){
 				$('#modes').html('團隊模式');
 			}
             showConnecting();
