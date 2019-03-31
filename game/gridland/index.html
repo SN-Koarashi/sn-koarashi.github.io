@@ -1,0 +1,96 @@
+﻿<!DOCTYPE html>
+<html>
+	<head>
+		<!-- 
+			Gridland (v1.1)
+			====================
+			
+			A weird little time-waster from doublespeak games.
+			www.doublespeakgames.com
+
+			Code, game design and graphics by Michael Townsend
+			Music by Vince Nitro (rule2.the-back-row.com)
+			
+			天夜之心改動版本:v1.2
+		 -->
+		<meta name="viewport" content="width=device-width">
+		<title>Gridland</title>
+		<meta itemprop="description" name="description" property="og:description" content="合成、建造和生存！">
+		<meta itemprop="image" property="og:image" content="https://i.imgur.com/zhFpU2z.png" />
+		<meta itemprop="name" property="og:title" content="Gridland" />
+		<meta name="apple-mobile-web-app-capable" content="yes" />
+		<meta name="mobile-web-app-capable" content="yes" />
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.8.2/jquery.min.js"></script>
+		<link rel="shortcut icon" href="favicon.ico">
+		<link rel="image_src" href="https://i.imgur.com/zhFpU2z.png" />
+		<link rel="apple-touch-icon" href="http://i.imgur.com/zhFpU2z.png" />
+		<link rel="stylesheet" type="text/css" href="css/main.css" />
+		<script type="text/javascript" data-main="js/app" src="js/lib/require.js"></script>
+		<style>
+			@viewport {
+				width: device-width;
+				max-zoom: 1;
+				orientation: portrait;
+				user-zoom: fixed;
+			}
+			@-ms-viewport {
+				width: device-width;
+				max-zoom: 1;
+				orientation: portrait;
+				user-zoom: fixed;
+			}
+			@-o-viewport {
+				width: device-width;
+				max-zoom: 1;
+				orientation: portrait;
+				user-zoom: fixed;
+			}
+			#Saveinfo{
+				position:fixed;
+				bottom:40px;
+				width:100%;
+				font-size:1.2rem;
+				font-family: Arial, Helvetica, sans-serif, '微軟正黑體';
+			}
+		</style>
+	</head>
+	<body class="titleScreen">
+
+		<div id="pauseIcon"></div>
+		<div id="loadingScreen">
+			<div class="saveSpinner">
+				<div></div>
+				<div></div>
+				<div></div>
+				<div></div>
+				<div></div>
+				<div></div>
+				<div></div>
+				<div></div>
+			</div>
+		</div>
+		<div id="gameContainer"></div>
+		<div class="menuBar litBorder">
+			<div id="debug" style="position:absolute;top:5px;left:100px;" nodeploy></div>
+			<div class="saveSpinner">
+				<div></div>
+				<div></div>
+				<div></div>
+				<div></div>
+				<div></div>
+				<div></div>
+				<div></div>
+				<div></div>
+			</div>
+			<a title="中文百科" class="logo" target="_blank" href="https://www.snkms.com/wiki/gridland.php">
+				<span class="nightSprite" data-clickable='true'></span>
+			</a>
+			<span class="menuHeading"></span>
+			<div class="menuBtn litBorder">
+				<div class="nightSprite"></div>
+			</div>
+			<ul class="submenu"><div id="Saveinfo">等級：<span id="you_level">0</span><br>龍王擊殺數：<span id="you_dragonkill">0</span><br>聲望：<span id="you_prestige">0</span></div></ul>
+		<div style="position:fixed;bottom:0px;font-family: Arial, Helvetica, sans-serif, '微軟正黑體';"><i>翻譯 www.snkms.com / 版權所有 www.doublespeakgames.com</i></div>
+		</div>
+	</body>
+</html>
