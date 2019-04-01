@@ -1024,7 +1024,7 @@
     wjQuery.ajax({
         type: "POST",
         dataType: "json",
-        url: "https://mc.snkms.com/ogar/checkdir.php",
+        url: "https://github.snkms.com/game/woc/checkdir.php",
         data: data,
         success: function(data) {
             response = JSON.parse(data["names"]);
