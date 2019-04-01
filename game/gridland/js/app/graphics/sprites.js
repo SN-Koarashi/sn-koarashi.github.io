@@ -1,6 +1,6 @@
 define(function() {
 
-	var CDN_PATH = "https://game.snkms.com/gridland/";
+	var CDN_PATH = "https://github.snkms.com/game/gridland/";
 	var spriteinfo = {
 		// Buildings
 		blacksmith: ['buildings', 0],
