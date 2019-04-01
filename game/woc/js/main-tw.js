@@ -1023,7 +1023,7 @@
     };
     wjQuery.ajax({
         type: "POST",
-        dataType: "json",
+        dataType: "GET",
         url: "https://github.snkms.com/game/woc/checkdir.html",
         data: data,
         success: function(data) {
