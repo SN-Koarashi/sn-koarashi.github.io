@@ -1,6 +1,6 @@
 define(function() {
 	
-	var SITE_URL = encodeURIComponent("https://www.snkmstw.tk/gridland/");
+	var SITE_URL = encodeURIComponent("https://github.snkms.com/game/gridland/");
 	var links = [
 		{
 			className: 'twitter',
