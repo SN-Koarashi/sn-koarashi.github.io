@@ -1,0 +1,125 @@
+<html lang="zh_TW">
+<head>
+  <meta charset="utf-8">
+  <title>2048</title>
+
+  <link href="style/main.css" rel="stylesheet" type="text/css">
+  <link rel="shortcut icon" href="favicon.ico">
+  <link rel="apple-touch-icon" href="meta/apple-touch-icon.png">
+  <link href="style/loading.css" rel="stylesheet" type="text/css" />
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-status-bar-style" content="black">
+
+  <meta name="HandheldFriendly" content="True">
+  <meta name="MobileOptimized" content="320">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="format-detection" content="telephone=no" />
+
+  <meta name="apple-itunes-app" content="app-id=868076805">
+
+  <meta property="og:title" content="2048"/>
+  <meta property="og:site_name" content="2048"/>
+  <meta property="og:description" content="Join the numbers and get to the 2048 tile! Careful: this game is extremely addictive!"/>
+	<div id="fb-root"></div>
+<script>(function(d, s, id) {
+  var js, fjs = d.getElementsByTagName(s)[0];
+  if (d.getElementById(id)) return;
+  js = d.createElement(s); js.id = id;
+  js.src = "//connect.facebook.net/zh_TW/sdk.js#xfbml=1&version=v2.5";
+  fjs.parentNode.insertBefore(js, fjs);
+}(document, 'script', 'facebook-jssdk'));</script>
+<script src="https://apis.google.com/js/platform.js"></script>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.8.2/jquery.min.js"></script>
+<script>
+jQuery(window).load(function() {
+  jQuery("#circle").fadeOut(700);
+  jQuery("#circle1").fadeOut(900);
+  jQuery("#word").fadeOut(900);
+  jQuery("#bg").fadeOut(900);
+});
+</script>
+  </head>
+<div id="bg"></div><div id='word'>載入中...</div><div id="circle"></div><div id="circle1"></div>
+<body style="margin-top:20px;" onDRAGSTART="window.event.returnValue=false" onCONTEXTMENU="window.event.returnValue=false" onSelectStart="event.returnValue=false">
+  <div class="container">
+    <div class="heading">
+      <h1 class="title">2048</h1>
+      <div class="scores-container">
+        <div class="score-container">0</div>
+        <div class="best-container">0</div>
+      </div>
+    </div>
+
+    <div class="above-game">
+      <p class="game-intro">移動方格使方格中數字變成<strong>2048</strong>分!</p>
+	  <a class="restart-button">新的遊戲</a>
+    </div>
+
+    <div class="app-notice">
+      <span class="notice-close-button">x</span>
+      <p><strong class="important">公告: 讓方格變成2048分使它成為超級方塊吧!</strong></p>
+    </div>
+
+    <div class="game-container">
+      <div class="game-message">
+        <p></p>
+	<div class="lower">
+	      <a class="keep-playing-button">繼續</a>
+          <a class="retry-button">再來一次</a><br><br>
+		  <div class="fb-like" data-href="https://www.facebook.com/smileopwe/" data-layout="button_count" data-action="like" data-show-faces="false" data-share="false"></div>
+		  <div class="fb-share-button" data-href="https://www.facebook.com/smileopwe/" data-layout="button"></div>
+		  </div>
+      </div>
+
+      <div class="grid-container">
+        <div class="grid-row">
+          <div class="grid-cell"></div>
+          <div class="grid-cell"></div>
+          <div class="grid-cell"></div>
+          <div class="grid-cell"></div>
+        </div>
+        <div class="grid-row">
+          <div class="grid-cell"></div>
+          <div class="grid-cell"></div>
+          <div class="grid-cell"></div>
+          <div class="grid-cell"></div>
+        </div>
+        <div class="grid-row">
+          <div class="grid-cell"></div>
+          <div class="grid-cell"></div>
+          <div class="grid-cell"></div>
+          <div class="grid-cell"></div>
+        </div>
+        <div class="grid-row">
+          <div class="grid-cell"></div>
+          <div class="grid-cell"></div>
+          <div class="grid-cell"></div>
+          <div class="grid-cell"></div>
+        </div>
+      </div>
+
+      <div class="tile-container">
+
+      </div>
+    </div>
+
+    <p align="center" class="game-explanation">
+      <strong class="important">遊戲玩法:<br></strong> 使用你的 <strong>方向鍵</strong> 來移動方格. <br>兩個相同的數字方格合併在一起, <br>就會得到<strong>更高的數字</strong>!<br>方格中數字是2048分的話將會變成<strong>超級方塊</strong>!
+    </p>
+    <hr>
+</td></tr>
+    </div>
+  </div>
+
+  <script src="js/bind_polyfill.js"></script>
+  <script src="js/classlist_polyfill.js"></script>
+  <script src="js/animframe_polyfill.js"></script>
+  <script src="js/keyboard_input_manager.js"></script>
+  <script src="js/html_actuator.js"></script>
+  <script src="js/grid.js"></script>
+  <script src="js/tile.js"></script>
+  <script src="js/local_storage_manager.js"></script>
+  <script src="js/game_manager.js"></script>
+  <script src="js/application.js"></script>
+</body>
+</html>
