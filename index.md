@@ -26,4 +26,4 @@ This is my sites.
 
 ## Public Projects
 
-* [Discord Sign in Bot](https://github.com/SN-Koarashi/discord-bot_sis) (A Simple Discord Bot)
+* [Discord Sign in Bot](https://github.com/SN-Koarashi/discord-bot_sis) - A Simple Discord Bot
