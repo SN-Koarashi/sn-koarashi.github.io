@@ -1,6 +1,6 @@
 # Hello Everyone
 
-I'm 5026. You also call me Koarashi!
+I'm 5026. You can also call me Koarashi!
 This page record my projects content.
 
 You can find me on:
