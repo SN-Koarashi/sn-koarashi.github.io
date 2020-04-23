@@ -4,14 +4,14 @@
  @author  : 麥子、JAR、小藍、好陽光的小鍋巴
  @version : V0.6.1 - 2019-07-09
  @website : http://www.g8hh.com
-
+ 
+ @origin  : 原簡體中文版: https://likexia.gitee.io/cuipi/zh/chs.js
  @zh_TW   : 繁體中文(台灣)版，適用於中華民國(ROC)地區文法
 */
 
 //1.漢化雜項
 var cnItems = {
     _OTHER_: [],
-    //小白牙：
     'Dragimp Scouting': 'Dragimp尋找',
     'Average Loot': '平均掉落',
     'Click this to collapse/expand the map configuration options.': '點擊以收起或展開地圖設定選項。',
@@ -2099,7 +2099,12 @@ var cnRegReplace = new Map([
     [/^(\d+) Barns, (\d+) Sheds, and (\d+) Forges.$/, '$1個穀倉、$2個棚屋和$3個鍛造間。'],
     [/^While you were away, your Trimps were able to produce (.+) food, (.+) wood, (.+) metal, (.+) gems, and (.+) fragments$/, '當您不在時，您的脆皮產生了$1的食物、$2的木材、$3的金屬、$4的寶石和$5的碎片'],
     [/^Your save on PlayFab has earned (.+) total Helium, defeated Zone (.+), and cleared (.+) total Zones. The save on your computer only has (.+) total Helium, has defeated Zone (.+), and cleared (.+) total Zones.$/, '你在PlayFab雲端的資料為$1個氦、通過了$2個區域以及清除了$3個區域。而你在電腦中的存檔為$4個氦、通過了$5個區域以及清除了$6個區域。'],
+    [/^While you were away, your Trimps were able to produce (.+) food, (.+) wood, (.+) metal, (.+) gems, and (.+) fragments.$/, '當你離開時，你的脆皮生產了$1食物、$2木材、$3金屬、$4寶石和$5碎片。'],
     [/^While you were away, your Trimps were able to produce (.+) food, (.+) wood, and (.+) metal.$/, '當您不在時，您的脆皮產生了$1的食物、$2的木材和$3的金屬'],
+	[/^While you were away, your Trimps were able to produce (.+) gems, and (.+) fragments.$/, '當你離開時，你的脆皮生產了$1寶石和$2碎片。'],
+    [/^While you were away, your Trimps were able to produce (.+) wood.$/, '當你離開時，你的脆皮生產了$1木材。'],
+    [/^While you were away, your Trimps were able to produce (.+) food.$/, '當你離開時，你的脆皮生產了$1食物。'],
+    [/^While you were away, your Trimps were able to produce (.+) metal.$/, '當你離開時，你的脆皮生產了$1金屬。'],
     [/^Progress: ([\d\.]+)$/, '進度：$1'],
     [/^Progress: ([\d\.]+) \/$/, '進度：$1'],
     [/^Progress:/, '進度：'],
@@ -2159,9 +2164,6 @@ var cnRegReplace = new Map([
     [/^Min (.+) Max$/, '最小 $1，最高'],
     [/^Respec (.+) bones$/, '恢覆 $1 骨頭'],
 	[/^Check\sTraps(.+)$/, '檢查陷阱$1'],
-    [/^While you were away, your Trimps were able to produce (.+) wood.$/, '當你離開時，你的脆皮生產了$1種木材。'],
-    [/^While you were away, your Trimps were able to produce (.+) food, (.+) wood, (.+) metal, (.+) gems, and (.+) fragments.$/, '當你離開時，你的脆皮生產了$1食物、$2木材、$3金屬、$4寶石和$5碎片。'],
-    [/^While you were away, your Trimps were able to produce (.+) gems, and (.+) fragments.$/, '當你離開時，你的脆皮生產了$1寶石和$2碎片。'],
     [/^You obliterated a (.+)!$/, '你抹殺了一個 $1!'],
     [/^You obliterated an (.+)!$/, '你抹殺了一個 $1!'],
     [/^You vaporized an (.+)!$/, '你秒殺了一個 $1!'],
