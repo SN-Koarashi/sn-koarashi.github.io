@@ -12,6 +12,7 @@
 var cnItems = {
     _OTHER_: [],
     //小白牙：
+    'Dragimp Scouting': 'Dragimp尋找',
     'Average Loot': '平均掉落',
     'Click this to collapse/expand the map configuration options.': '點擊以收起或展開地圖設定選項。',
     'You can save up to 3 different map configurations to switch between at will. The most recently selected setting will load each time you enter your map chamber.': '您最多可以儲存3種不同的地圖設定以便隨時切換。 每次您進入地圖室時都會載入最新選擇的設定。',
@@ -757,7 +758,10 @@ var cnItems = {
     'UberHouse': '超級宅院',
     'UberHut': '超級小屋',
     'Map Corruption': '地圖腐化',
-    'Food/Wood/Metal Loot Breakdown': '食物/木材/金屬 洗劫一空',
+    'Food/Wood/Metal Loot Breakdown': '食物/木材/金屬 掉落細節',
+    'Fragments Loot Breakdown': '碎片 掉落細節',
+    'Gems Loot Breakdown': '寶石 掉落細節',
+    'Helium Loot Breakdown': '氦 掉落細節',
     'Breezy': '活潑的',
     'Deca Build': '十進制構建',
     'Amalgagreater': '融合器',
