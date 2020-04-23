@@ -11,6 +11,7 @@
 var cnItems = {
     _OTHER_: [],
     //小白牙：
+    'Average Loot': '平均掉落',
     'Click this to collapse/expand the map configuration options.': '點擊以收起或展開地圖設定選項。',
     'You can save up to 3 different map configurations to switch between at will. The most recently selected setting will load each time you enter your map chamber.': '您最多可以儲存3種不同的地圖設定以便隨時切換。 每次您進入地圖室時都會載入最新選擇的設定。',
     'Click this to save your current map configuration settings to your currently selected preset. These settings will load by default every time you come in to the map chamber or select this preset.': '點擊此按鈕將當前地圖設定儲存到目前選擇的預設值中。 這些設定將在您每次進入地圖室或選擇此預設值時載入。',
@@ -1552,7 +1553,7 @@ var cnItems = {
     'You vaporized a Penguimp!': '您秒殺了一隻Penguimp!',
     'You wrecked an Elephimp!': '你毀了一隻大象!',
     'These shoulderguards will help keep your Trimps\' necks and shoulders safe, and they look cool too. Adds 23 health to each soldier per level': '這些護肩有助於保持脆皮的脖子和肩膀安全，而且看起來也很酷。 每級士兵增加23點生命',
-    'A building where your Trimps can work out. Each Gym increases the amount of damage each trimp can block by 6.': '您的脆皮可以鍛煉的建築物。 每個健身房都會使每個修剪可以阻止的傷害增加6點。',
+    'A building where your Trimps can work out. Each Gym increases the amount of damage each trimp can block by 6.': '讓您的脆皮可以鍛鍊身體的建築。每個健身房都會讓每個脆皮增加6點防禦。',
     'You can only purchase 1 Barn at a time.': '您一次只能購買1個穀倉。',
     'You can only purchase 1 Forge at a time.': '您一次只能購買1個鍛造室。',
     'You can only purchase 1 Shed at a time.': '您一次只能購買1個窩棚。',
