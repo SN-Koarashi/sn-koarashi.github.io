@@ -5,6 +5,7 @@
  @version : V0.6.1 - 2019-07-09
  @website : http://www.g8hh.com
 
+ @zh_TW   : 繁體中文(台灣)版，適用於中華民國(ROC)地區文法
 */
 
 //1.漢化雜項
