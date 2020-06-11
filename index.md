@@ -27,4 +27,7 @@ This is my sites.
 ## Public Projects
 
 * [Discord Sign in Bot](https://github.com/SN-Koarashi/discord-bot_sis) - A Simple Discord Bot.
-* [IG Wizard](https://greasyfork.org/zh-TW/scripts/404535-ig%E5%B0%8F%E7%B2%BE%E9%9D%88) - A simple to download Instagram photos, videos and stories.
+
+## Greasy Fork
+* [IG Helper](https://greasyfork.org/en/scripts/404535-ig-helper) - A simple to download Instagram posts photos and videos or their stories!
+* [Unlock Website Limit](https://greasyfork.org/en/scripts/404665-unlock-website-limit) - Unlock website events, including right click, selection lock, copy and cut, etc.
