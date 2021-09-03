@@ -5,10 +5,10 @@
         if (arg != CONNECTION_URL) {
             CONNECTION_URL = arg;
 			
-			if(arg == 'mc.snkms.com:10222'){
+			if(arg == 'server.emss.tw:25566'){
 				$('#modes').html('自由對戰');
 			}
-			if(arg == 'mc.snkms.com:10223'){
+			if(arg == 'server.emss.tw:25568'){
 				$('#modes').html('團隊模式');
 			}
             showConnecting();
