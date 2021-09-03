@@ -1,5 +1,5 @@
 (function(wHandle, wjQuery) {
-    var CONNECTION_URL = "mc.snkms.com:10222";
+    var CONNECTION_URL = "server.emss.tw:25566";
     SKIN_URL = "https://mc.snkms.com/ogar/skins/";
     wHandle.setserver = function(arg) {
         if (arg != CONNECTION_URL) {
