@@ -1,0 +1,165 @@
+<!DOCTYPE HTML>
+<html lang="zh_TW">
+<head>
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.8.2/jquery.min.js"></script>
+<script>
+$(function(){
+	$('form').submit(function(){
+		switch($('select[name="types"]').val()){
+			case '1':
+				q1($('#ans').val());break;
+			case '2':
+				q2($('#ans').val());break;
+			case '3':
+				q3($('#ans').val());break;
+			case '4':
+				q4($('#ans').val());break;
+			case '5':
+				q5($('#ans').val());break;
+			case '6':
+				q6($('#ans').val());break;
+		}
+		return false;
+	});
+});
+
+function q1(ans){
+	var a,b,c,d;
+	var j = 0;
+	
+	while(true){
+		j++;
+		a = Math.floor(Math.random()*9+1);
+		b = Math.floor(Math.random()*9+1);
+		c = Math.floor(Math.random()*9+1);
+		d = Math.floor(Math.random()*9+1);
+		
+		if(j >= 10000) break;
+		if(a*b-c+d == ans && a!=b && a!=c && a!=d && b!=a && b!=c && b!=d && c!=a && c!=b && c!=d && d!=a && d!=b && d!=c){
+			console.log(a,b,c,d,j);
+			$('#fans').text(a+"x"+b+"-"+c+"+"+d);
+			break;
+		}
+	}
+}
+function q2(ans){
+	var a,b,c,d;
+	var j = 0;
+	
+	while(true){
+		j++;
+		a = Math.floor(Math.random()*9+1);
+		b = Math.floor(Math.random()*9+1);
+		c = Math.floor(Math.random()*9+1);
+		d = Math.floor(Math.random()*9+1);
+		
+		if(j >= 10000) break;
+		if(a*b+c-d == ans && a!=b && a!=c && a!=d && b!=a && b!=c && b!=d && c!=a && c!=b && c!=d && d!=a && d!=b && d!=c){
+			console.log(a,b,c,d,j);
+			$('#fans').text(a+"x"+b+"+"+c+"-"+d);
+			break;
+		}
+	}
+}
+function q3(ans){
+	var a,b,c,d;
+	var j = 0;
+	
+	while(true){
+		j++;
+		a = Math.floor(Math.random()*9+1);
+		b = Math.floor(Math.random()*9+1);
+		c = Math.floor(Math.random()*9+1);
+		d = Math.floor(Math.random()*9+1);
+		
+		if(j >= 10000) break;
+		if(a-b*c+d == ans && a!=b && a!=c && a!=d && b!=a && b!=c && b!=d && c!=a && c!=b && c!=d && d!=a && d!=b && d!=c){
+			console.log(a,b,c,d,j);
+			$('#fans').text(a+"-"+b+"x"+c+"+"+d);
+			break;
+		}
+	}
+}
+function q4(ans){
+	var a,b,c,d;
+	var j = 0;
+	
+	while(true){
+		j++;
+		a = Math.floor(Math.random()*9+1);
+		b = Math.floor(Math.random()*9+1);
+		c = Math.floor(Math.random()*9+1);
+		d = Math.floor(Math.random()*9+1);
+		
+		if(j >= 10000) break;
+		if(a+b*c-d == ans && a!=b && a!=c && a!=d && b!=a && b!=c && b!=d && c!=a && c!=b && c!=d && d!=a && d!=b && d!=c){
+			console.log(a,b,c,d,j);
+			$('#fans').text(a+"+"+b+"x"+c+"-"+d);
+			break;
+		}
+	}
+}
+function q5(ans){
+	var a,b,c,d;
+	var j = 0;
+	
+	while(true){
+		j++;
+		a = Math.floor(Math.random()*9+1);
+		b = Math.floor(Math.random()*9+1);
+		c = Math.floor(Math.random()*9+1);
+		d = Math.floor(Math.random()*9+1);
+		
+		if(j >= 10000) break;
+		if(a+b-c*d == ans && a!=b && a!=c && a!=d && b!=a && b!=c && b!=d && c!=a && c!=b && c!=d && d!=a && d!=b && d!=c){
+			console.log(a,b,c,d,j);
+			$('#fans').text(a+"+"+b+"-"+c+"x"+d);
+			break;
+		}
+	}
+}
+function q6(ans){
+	var a,b,c,d;
+	var j = 0;
+	
+	while(true){
+		j++;
+		a = Math.floor(Math.random()*9+1);
+		b = Math.floor(Math.random()*9+1);
+		c = Math.floor(Math.random()*9+1);
+		d = Math.floor(Math.random()*9+1);
+		
+		if(j >= 10000) break;
+		if(a-b+c*d == ans && a!=b && a!=c && a!=d && b!=a && b!=c && b!=d && c!=a && c!=b && c!=d && d!=a && d!=b && d!=c){
+			console.log(a,b,c,d,j);
+			$('#fans').text(a+"-"+b+"+"+c+"x"+d);
+			break;
+		}
+	}
+}
+</script>
+</head>
+<form id="theForm" name="theForm">
+<div>
+題目類型
+<select name="types">
+<option value="1">口x口-口+口</option>
+<option value="2">口x口+口-口</option>
+<option value="3">口-口x口+口</option>
+<option value="4">口+口x口-口</option>
+<option value="5">口+口-口x口</option>
+<option value="6">口-口+口x口</option>
+</select>
+</div>
+<div>
+答案
+<input type="number" id="ans" />
+</div>
+<div>
+<input type="submit" id="submit" />
+</div>
+</form>
+<div id="fans"></div>
+</html>
