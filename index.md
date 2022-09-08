@@ -21,8 +21,8 @@ This is my sites.
 
 ## Private Projects
 
-* [Member Register System](https://www.snkms.com/) - A PHP Website.
-* Data Convenient Inquire Bot System(DCIB System) - A Discord Bot.
+* [Member Register System](https://www.snkms.com/) - A PHP Website by my coding.
+* Data Convenient Inquire Bot System(DCIB System) - A Discord Bot in my discord server.
 
 ## Public Projects
 
