@@ -13,21 +13,18 @@ You can find me on:
 * [Bahamut](https://home.gamer.com.tw/homeindex.php?owner=woo0410)
 
 ## Sites
-
 This is my sites.
 
 * MRS (Member Register System) - [www.snkms.com](https://www.snkms.com/)
 * Forum (My Forum) - [forum.snkms.com](https://forum.snkms.com)
 
 ## Private Projects
-
 * [Member Register System](https://www.snkms.com/) - A PHP Website by my coding.
 * Data Convenient Inquire Bot System(DCIB System) - A Discord Bot in my discord server.
 
 ## Public Projects
-
 * [Discord Sign in Bot](https://github.com/SN-Koarashi/discord-bot_sis) - A Simple Discord Bot.
 
-## Greasy Fork
-* [IG Helper](https://greasyfork.org/en/scripts/404535-ig-helper) - A simple to download Instagram posts photos and videos or their stories!
+## Greasy Fork (User Script)
+* [IG Helper](https://greasyfork.org/en/scripts/404535-ig-helper) - In Instagram, downloading is possible for both photos and videos from posts, as well as for stories, reels or profile picture.
 * [Unlock Website Limit](https://greasyfork.org/en/scripts/404665-unlock-website-limit) - Unlock website events, including right click, selection lock, copy and cut, etc.
