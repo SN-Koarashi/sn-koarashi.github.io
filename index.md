@@ -1,4 +1,8 @@
 # Hello Everyone
+* You can read more in [yuriko.cc](https://www.yuriko.cc/en/)
+
+<!--
+# Hello Everyone
 
 I'm 5026. You can also call me Koarashi!
 This page record my projects content.
@@ -28,3 +32,4 @@ This is my sites.
 ## Greasy Fork (User Script)
 * [IG Helper](https://greasyfork.org/en/scripts/404535-ig-helper) - In Instagram, downloading is possible for both photos and videos from posts, as well as for stories, reels or profile picture.
 * [Unlock Website Limit](https://greasyfork.org/en/scripts/404665-unlock-website-limit) - Unlock website events, including right click, selection lock, copy and cut, etc.
+-->
