@@ -1,5 +1,5 @@
 # Hello Everyone
-* You can read more in [yuriko.cc](https://www.yuriko.cc/en/)
+* You can read more in [yuriko.cc](https://www.yuriko.cc/)
 
 <!--
 # Hello Everyone
